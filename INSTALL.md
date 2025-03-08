@@ -1,6 +1,6 @@
 # Instructions
 
-These instructions explain how to set up the tools required to build **pokefirered**, which assembles the source files into a ROM.
+These instructions explain how to set up the tools required to build **pokekelpgreen**, which assembles the source files into a ROM.
 
 These instructions come with notes which can be expanded by clicking the "<i>Note...</i>" text.
 In general, you should not need to open these unless if you get an error or if you need additional clarification.
@@ -171,7 +171,7 @@ Note that in msys2, Copy is Ctrl+Insert and Paste is Shift+Insert.
     cd
     ```
 
-### Choosing where to store pokefirered (msys2)
+### Choosing where to store pokekelpgreen (msys2)
 At this point, you can choose a folder to store pokefirered into. If you're okay with storing pokefirered in the user profile folder, then proceed to [Installation](#installation). Otherwise, you'll need to account for where pokefirered is stored when changing directory to the pokefirered folder.
 
 For example, if you want to store pokefirered (and agbcc) in **C:\Users\\_\<user>_\Desktop\decomps** (where *\<user>* is your **Windows** username), enter this command:
@@ -467,7 +467,7 @@ This project can also build the version 1.1 ROMs of both FireRed and LeafGreen. 
 make firered_rev1  # for FireRed 1.1
 make leafgreen_rev1  # for LeafGreen 1.1
 ```
-
+Just note that by doing this, most of the game will be screwed. Just stick with using **make**
 # Building guidance
 
 ## Parallel builds
