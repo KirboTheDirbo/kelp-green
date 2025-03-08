@@ -2,9 +2,9 @@ GAME_VERSION ?= FIRERED
 
 # GBA rom header
 ifeq ($(GAME_VERSION),FIRERED)
-TITLE       := POKEMON FIRE
+TITLE       := POKEMON KELP
 GAME_CODE   := BPRE
-BUILD_NAME  := firered
+BUILD_NAME  := kelpgreen
 else
 ifeq ($(GAME_VERSION),LEAFGREEN)
 TITLE       := POKEMON LEAF
